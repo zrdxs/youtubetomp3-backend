@@ -12,7 +12,7 @@ const videoController = {
         if(audioVideoInfomation){
             res.send(audioVideoInfomation);
         }else{
-            res.status(500).send('Erro');
+            res.status(500).send('Error -> Something Happened');
         }
 
         setTimeout(() => {
